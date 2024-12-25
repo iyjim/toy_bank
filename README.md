@@ -1,6 +1,6 @@
 # ToyBank
 
-**For debugging the example of the [Define Polymorphic Relationshipsh][ttps://hexdocs.pm/ash/polymorphic-relationships.html] document**
+**For debugging the example of the [Define Polymorphic Relationshipsh](ttps://hexdocs.pm/ash/polymorphic-relationships.html) document**
 
 ## Usage
 
