@@ -11,6 +11,6 @@ defmodule AccountImplementation do
           type: :struct,
           constraints: [instance_of: SavingsAccount]
         ]
-      」
+      ]
     ]
 end
