@@ -23,5 +23,15 @@ defmodule BankAccount do
     calculate :implementation, AccountImplementation, GetAccountImplementation do
       allow_nil? false
     end
+
+    calculate :interest_rate,
+              :decimal,
+              expr(
+                if type == :savings do
+                  savings_account.interest_rate
+                else
+                  0
+                end
+              )
   end
 end
