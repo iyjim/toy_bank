@@ -22,10 +22,8 @@ defmodule ToyBank.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      # {:ash, "~> 3.0"},
-      {:ash, "3.4.47"},
-      # {:igniter, "~> 0.5", only: [:dev, :test]}
-      {:igniter, "~> 0.4"}
+      {:ash, "~> 3.0"},
+      {:igniter, "~> 0.5", only: [:dev, :test]}
       # {:dep_from_hexpm, "~> 0.3.0"},
       # {:dep_from_git, git: "https://github.com/elixir-lang/my_dep.git", tag: "0.1.0"}
     ]
