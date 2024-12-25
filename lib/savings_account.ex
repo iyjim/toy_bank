@@ -4,11 +4,12 @@ defmodule SavingsAccount do
     data_layer: Ash.DataLayer.Ets
 
   actions do
-    defaults [:read, :destroy, create: [:bank_account_id]]
+    defaults [:read, :destroy, create: [:bank_account_id, :interest_rate]]
   end
 
   attributes do
     uuid_primary_key :id
+    attribute :interest_rate, :decimal
   end
 
   relationships do
